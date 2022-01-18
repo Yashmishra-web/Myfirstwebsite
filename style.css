@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.center_text {
+  text-align: center;
+}
+
+.whitesmoke {
+  background-color: #f2f2f2;
+}
+
+.whiteText {
+  color: white;
+}
+
+hr {
+  /* height: 1px; */
+  background-color: rgb(190, 190, 190);
+  /* color: gray; */
+  /* border-top: 1px solid rgb(170, 170, 170); */
+  /* border-bottom-color: white; */
+}
+
+.image_overlay {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro {
+  height: 450px;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTULYEYdzE6T5_5d6gOA-ausRMc03Vr6hHVcw&usqp=CAU");
+}
+
+.introTest {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.6);
+
+  padding-top: 100px;
+  /* padding: 100px 100px; */
+  font-size: 3rem;
+  color: white;
+}
+
+.intro .introTest p {
+  width: 45%;
+  text-align: center;
+  font-size: 3rem;
+  margin: auto;
+}
+
+.btn_section {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.learnMoreBtn {
+  margin: 1rem;
+
+  border: 1px solid white;
+  padding: 0.7rem;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.portfolio_btn {
+  margin: 1rem;
+  border: 1px solid #73c9be;
+  padding: 0.7rem;
+  background-color: #73c9be;
+  border-radius: 5px;
+  color: white;
+}
+
+.happening_outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.happening_inner {
+  width: fit-content;
+  padding: 0rem 1rem;
+
+  border-bottom: 1px solid #d0d0d0;
+}
+
+/* Cards 1*/
+.cards {
+  margin: 1rem 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottomBorder {
+  border-bottom: 1px dashed #d0d0d0;
+}
+
+.card_main {
+  width: 300px;
+}
+
+.card_main h3 {
+  color: #585858;
+}
+
+.card_main p {
+  color: #5a5a5a;
+  font-size: 0.9rem;
+}
+
+.card_main img {
+  width: inherit;
+}
+
+.card_stats {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  color: #b4b4b4;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card_stats_inner {
+  width: fit-content;
+}
+
+.card_stats_inner .comment {
+  border-right: 1px solid #b4b4b4;
+}
+
+.card_stats_inner .calendar {
+  margin-left: 0.5rem;
+}
+
+.intro2 {
+  height: 350px;
+  background-image: url("images/galaxy\ pattern.jpg");
+}
+
+.intro2 .introTest p {
+  width: 45%;
+  text-align: center;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.morePadding {
+  padding: 0 3rem;
+}
+
+.icons {
+  width: 100%;
+}
+
+.footer {
+  background-color: #2f2f2f;
+  padding: 2rem;
+  color: white;
+}
+
+.footer_p {
+  width: 45%;
+  /* text-align: center; */
+  color: #c1c1c1;
+  margin: 1rem auto;
+}
+
+@media (max-width: 800px) {
+  .image_overlay .introTest p {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
